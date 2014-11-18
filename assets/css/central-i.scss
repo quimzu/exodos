@@ -1,0 +1,263 @@
+
+@import url(http://fonts.googleapis.com/css?family=Merriweather:400,700,900,300);
+
+body, html{
+   height: 100%;
+   padding: 0;
+}
+
+
+img {
+	max-width: 100%;
+}
+
+html{
+
+	section#home {
+	
+		color: #FFFFFF;
+		font-family: arial,sans-serif,verdana;
+		height: 100%;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		overflow-y: scroll;
+		background-image: url("../images/bg_tablet.jpg");
+		background-size: cover;
+		background-position: center center;
+		font-family: 'BellMSFE-Black';
+		z-index: 1;
+		color: #282523;
+   
+	    #intro {
+	   	   padding: 1em;
+	       max-width:80%;
+	       position: relative;
+	       z-index: 999;
+	       margin: 0 auto;
+	       
+	       h2 {
+				font-family: 'BellMSFE-light';
+				font-size: 1.5em;
+				margin-bottom: 10px;
+	       }
+			
+		.autors{
+			font-size: 1em;
+	
+		}
+	     }
+	   }
+		
+	  .projecte {
+	  	    background-size: cover;
+	  	    background-position: center center;
+	  	    float: left;
+	  	    position: relative;
+	  	    width: 33.3%;
+	  	    float: left;
+	  	    z-index: 999;
+			 
+			  &#sudandelsur {
+			  background-image: url("../images/bg_sudan.jpg");
+			  }
+			  &#siria {			  background-image: url("../images/bg_siria.jpg");
+			  }
+			  &#otro {			   background-image: url("../images/bg_mexico.jpg");
+			}
+	  
+	  	  h1 {
+	  	    color: #FFFFFF;
+	  	    font-family: 'BellMSFE-Black';
+	  	    font-size: 4.5em;
+	  	    font-size: 6vw;
+	  	    padding: 0.25em;
+	  	    text-transform: uppercase;
+	  	    line-height: 1em;
+	  	    padding-bottom: 0;
+	  
+	  	      span {
+	  	  	        display: block;
+	  	  	        font-family: 'BellMSFE-Light';
+	  	       	 }
+	  	  	  }
+	  	  
+	  	  h2 {
+	  		    color: #fff;
+	  		    font-family: 'BellMSFE-Light';
+	  		    font-size: 22px;
+	  		    font-weight: normal !important;
+	  		    padding: 0.6em;
+	  		    text-transform: uppercase;
+	  		    padding-top: 0;
+	  		  }
+	  		  
+	  		  .ir-proyecto {
+	  		  
+	  		  	margin: 0 auto;
+	  		  	display: block;
+	  		  	text-align: center;
+	  		  	padding: .5em;
+	  		  	width: 300px;
+	  		  	bottom: 1em;
+	  		  	font-size: 1.5em;
+	  		  	position: absolute;
+	  		  	bottom: 1em;
+	  		  	left: 1em;
+	  		  	
+	  		  	span {
+	  		  	    display: block;
+	  		  	    font-family: 'BellMSFE-Black';
+	  		  	    color: #fff;
+	  		  	    text-transform: uppercase;
+	  		  	    font-weight: lighter;
+	  		  	    
+	  		  	    &:hover{
+	  		  			text-decoration: underline;
+	  		  		}
+	  		  	
+	  		  	    
+	  		  	}
+	  		  		
+	  		  
+	  		  }
+	  		  
+	  		  
+	  		  	  
+	}
+
+
+
+/*Central distribuidora*/
+
+
+
+	  
+	
+/*	.info-home {
+			color: white;
+			float: right;
+			font-size: 1.5em;
+			text-transform: uppercase;
+			min-width: 300px;
+			z-index: 2;
+			margin-right: 5%;
+			width: 25%;
+			position: relative;
+	}*/
+}    
+
+html.mobile{
+
+section#home{
+	color: #FFFFFF;
+	font-family: arial,sans-serif,verdana;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	overflow-y: scroll;
+	font-family: 'BellMSFE-Black';
+	z-index: 1;
+	color: #282523;
+    background: url("../images/cel.jpg") no-repeat fixed center top / cover rgba(0, 0, 0, 0);
+
+	#intro {
+	   padding: 1em;
+	   max-width:80%;
+	   position: relative;
+	   z-index: 999;
+	   margin: 0 auto;
+	   
+	   h2 {
+			font-family: 'BellMSFE-light';
+			font-size: 1.2em;
+			margin-bottom: 10px;
+	   }
+	
+	}	
+	
+	}
+	
+	 .projecte {
+		 height: 200px;
+		 width: 100%;
+		 display:block;
+		 background-size: cover;
+		 background-position: center center;
+	 
+		 &#sudandelsur {background-image: url('../images/bg_sudan_i.jpg');}
+		 &#siria {background-image: url('../images/bg_siria_i.jpg');}
+		 &#otro {background-image: url('../images/bg_mexico.jpg');}
+		 
+		 
+		 
+		 h1 {
+		 	    color: #FFFFFF;
+		 	    font-family: 'BellMSFE-Black';
+		 	    font-size: 2.5em;
+		 	      padding: 0.25em;
+		 	    text-transform: uppercase;
+		 	    line-height: 1em;
+		 	    padding-bottom: 0;
+		 
+		 	      span {
+		 	  	        display: block;
+		 	  	        font-family: 'BellMSFE-Light';
+		 	       	 }
+		 	  	  }
+		 	  
+		 	  h2 {
+		 		    color: #fff;
+		 		    font-family: 'BellMSFE-Light';
+		 		    font-size: 1.2em;
+		 		    font-weight: normal !important;
+		 		    padding: 0.6em;
+		 		    text-transform: uppercase;
+		 		    padding-top: 0;
+		 		  }
+		 		  
+		 		  .ir-proyecto {
+		 		  
+		 		  	margin: 0 auto;
+		 		  	display: block;
+		 		  	text-align: right;
+		 		  	padding: .5em;
+		 		  	width: 300px;
+		 		  	bottom: 1em;
+		 		  	font-size: 1em;
+		 		  	position: relative;
+		 		  	bottom: none;
+		 		  	left: 0;
+		 		  	padding-right:.5em;
+		 		  	span {
+		 		  	    display: block;
+		 		  	    font-family: 'BellMSFE-Black';
+		 		  	    color: #fff;
+		 		  	    text-transform: uppercase;
+		 		  	    font-weight: lighter;
+		 		  	    
+		 		  	    &:hover{
+		 		  			text-decoration: underline;
+		 		  		}
+		 		  	
+		 		  	    
+		 		  	}
+		 		  		
+		 		  
+		 		  }
+		 		  
+		 
+
+	 }
+	
+
+
+}
+
+#peu-msf {
+bottom: 10px;
+left: 10px;
+position: fixed;
+z-index: 999;
+}

@@ -1,0 +1,44 @@
+		@font-face {
+				font-family: 'BellMSFE-Black';
+				src: url('fonts/bellmsfeblack.eot');
+				src: url('fonts/bellmsfeblack.eot?#iefix') format('embedded-opentype'),
+						 url('fonts/bellmsfeblack.woff') format('woff'),
+						 url('fonts/bellmsfeblack.ttf') format('truetype'),
+						 url('fonts/bellmsfeblack.svg#bellmsfeblack') format('svg');
+				font-weight: normal;
+				font-style: normal;
+		}
+		@font-face {
+				font-family: 'BellMSFE-BlackItalic';
+				src: url('fonts/bellmsfeblackitalic.eot');
+				src: url('fonts/bellmsfeblackitalic.eot?#iefix') format('embedded-opentype'),
+						 url('fonts/bellmsfeblackitalic.woff') format('woff'),
+						 url('fonts/bellmsfeblackitalic.ttf') format('truetype'),
+						 url('fonts/bellmsfeblackitalic.svg#bellmsfeblackitalic') format('svg');
+				font-weight: normal;
+				font-style: normal;
+		}
+		
+		@font-face {
+				font-family: 'BellMSFE-Light';
+				src: url('fonts/bellmsfelight.eot');
+				src: url('fonts/bellmsfelight.eot?#iefix') format('embedded-opentype'),
+						 url('fonts/bellmsfelight.woff') format('woff'),
+						 url('fonts/bellmsfelight.ttf') format('truetype'),
+						 url('fonts/bellmsfelight.svg#bellmsfelight') format('svg');
+				font-weight: normal;
+				font-style: normal;
+		}
+		
+		
+		@font-face {
+				font-family: 'BellMSFE-LightItalic';
+				src: url('fonts/bellmsfelightitalic.eot');
+				src: url('fonts/bellmsfelightitalic.eot?#iefix') format('embedded-opentype'),
+						 url('fonts/bellmsfelightitalic.woff') format('woff'),
+						 url('fonts/bellmsfelightitalic.ttf') format('truetype'),
+						 url('fonts/bellmsfelightitalic.svg#bellmsfelightitalic') format('svg');
+				font-weight: normal;
+				font-style: normal;
+		}
+		
