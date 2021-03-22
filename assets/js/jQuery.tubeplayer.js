@@ -541,7 +541,7 @@
 			// write the api script tag
 			var tag = document.createElement('script');
 
-			tag.src = o.protocol + "://www.youtube.com/iframe_api";
+			tag.src = "https://www.youtube.com/iframe_api";
 
 			var firstScriptTag = document.getElementsByTagName('script')[0];
 
