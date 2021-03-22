@@ -2,13 +2,13 @@ $( document ).ready(function() {
 
 	 //PRELOAD
 	    loadImage = new Image();
-	    loadImage.src = "../central/bg_siria_des.jpg";
+	    loadImage.src = "../home/bg_siria_des.jpg";
 	
 	    loadImage2 = new Image();
-	    loadImage2.src = "../central/bg_sudan_des.jpg";
+	    loadImage2.src = "../home/bg_sudan_des.jpg";
 	    
 	    loadImage3 = new Image();
-	    loadImage3.src = "../central/bg_mexico_des.jpg"; 
+	    loadImage3.src = "../home/bg_mexico_des.jpg"; 
 
 //Smartphone/tablet control
 if ($('html').hasClass('desktop')) {
