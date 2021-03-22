@@ -1,0 +1,269 @@
+@import url(http://fonts.googleapis.com/css?family=Merriweather:400,700,900,300);
+body, html {
+  height: 100%;
+  padding: 0; }
+
+body#index {
+  overflow-x: hidden;
+  overflow-y: hidden; }
+  @media only screen and (min-width: 0px) and (max-width: 1100px) {
+    body#index {
+      overflow: scroll; } }
+
+img {
+  max-width: 100%; }
+
+/*Home */
+section#home {
+  color: #FFFFFF;
+  font-family: arial,sans-serif,verdana;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-y: scroll;
+  background: url(../images/home/cel.jpg) no-repeat fixed center top/cover rgba(0, 0, 0, 0);
+  font-family: 'BellMSFE-Black';
+  z-index: 1;
+  color: #282523;
+  /**/ }
+  section#home .noies {
+    background: url(../images/home/back.png) no-repeat fixed center top/cover rgba(0, 0, 0, 0);
+    height: 75%;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    z-index: 100; }
+  section#home #intro {
+    padding: 1em;
+    width: 430px;
+    position: fixed;
+    z-index: 999; }
+    section#home #intro h2 {
+      font-family: 'BellMSFE-light';
+      font-size: 26px;
+      margin-bottom: 10px; }
+    section#home #intro .autors {
+      margin-bottom: 10px; }
+    section#home #intro .xarxes {
+      z-index: 99; }
+
+.pasa-pagina {
+  top: 2em;
+  display: block;
+  height: 2em;
+  margin: 0 auto;
+  position: fixed;
+  text-align: center;
+  z-index: 9999;
+  position: fixed;
+  right: 3em; }
+  .pasa-pagina a {
+    color: #000;
+    font-family: 'Merriweather',serif;
+    padding: 10px;
+    border: 4px solid #000;
+    font-size: 1em;
+    font-weight: lighter;
+    transition: all 1s ease-out 0s; }
+    .pasa-pagina a:hover {
+      border: 4px solid #ccc;
+      transition: all 1s ease-out 0s; }
+
+.pasa-central {
+  bottom: 6em;
+  display: block;
+  height: 2em;
+  margin: 0 auto;
+  position: absolute;
+  text-align: center;
+  z-index: 9999;
+  position: fixed;
+  text-align: center;
+  width: 100%; }
+  .pasa-central a {
+    color: #000;
+    font-family: 'Merriweather',serif;
+    padding: 10px;
+    font-size: 1em;
+    font-weight: lighter;
+    transition: all 1s ease-out 0s; }
+    .pasa-central a div {
+      color: white;
+      text-align: center;
+      font-size: 1.5em;
+      padding: 10px;
+      font-family: 'BellMSFE-Light';
+      font-family: 'Merriweather',serif;
+      color: #fff;
+      text-transform: uppercase;
+      font-weight: lighter; }
+
+#peu-msf {
+  bottom: 10px;
+  left: 10px;
+  position: fixed;
+  z-index: 9999; }
+
+/*Central distribuidora*/
+#central {
+  width: 100%;
+  z-index: 10; }
+  #central .pasa-pagina {
+    bottom: 0;
+    display: block;
+    height: 2em;
+    margin: 0 auto;
+    position: absolute;
+    text-align: center;
+    width: 100%; }
+  #central .info {
+    z-index: 5;
+    position: relative;
+    height: 100%; }
+    #central .info .xarxes {
+      padding: 0 17px; }
+  #central #sudandelsur {
+    background-image: url(../images/home/bg_sudan.jpg); }
+    #central #sudandelsur:hover {
+      background-image: url(../images/home/bg_sudan_des.jpg); }
+      @media only screen and (min-width: 0px) and (max-width: 1100px) {
+        #central #sudandelsur:hover {
+          background-image: url(../images/home/bg_sudan.jpg); } }
+  #central #siria {
+    background-image: url(../images/home/bg_siria.jpg); }
+    #central #siria:hover {
+      background-image: url(../images/home/bg_siria_des.jpg); }
+      @media only screen and (min-width: 0px) and (max-width: 1100px) {
+        #central #siria:hover {
+          background-image: url(../images/home/bg_siria.jpg); } }
+  #central #otro {
+    background-image: url(../images/home/bg_mexico.jpg); }
+    #central #otro:hover {
+      background-image: url(../images/home/bg_mexico_des.jpg); }
+      @media only screen and (min-width: 0px) and (max-width: 1100px) {
+        #central #otro:hover {
+          background-image: url(../images/home/bg_mexico.jpg); } }
+  #central h1 {
+    color: #FFFFFF;
+    font-family: 'BellMSFE-Black';
+    font-size: 4.5em;
+    font-size: 6vw;
+    padding: 0.25em;
+    text-transform: uppercase;
+    line-height: 1em;
+    padding-bottom: 0; }
+    @media only screen and (min-width: 0px) and (max-width: 1100px) {
+      #central h1 {
+        font-size: 4em; } }
+    #central h1 span {
+      display: block;
+      font-family: 'BellMSFE-Light'; }
+  #central h2 {
+    color: #fff;
+    font-family: 'BellMSFE-Light';
+    font-size: 22px;
+    font-weight: normal !important;
+    padding: 0.6em;
+    text-transform: uppercase;
+    padding-top: 0; }
+  #central .projecte {
+    background-size: cover;
+    float: left;
+    height: 100%;
+    position: relative;
+    width: 33.3%;
+    overflow: hidden;
+    /*	    @media only screen and (min-width: 0px) and (max-width: 1100px){
+    	    	width: 100%;
+    	    	height: 800px;
+    	    	position: relative !important;
+    	    	overflow: hidden;
+    	    	
+    	    }*/ }
+    #central .projecte .mapa {
+      display: block;
+      margin: 2em auto; }
+    #central .projecte p {
+      margin: 2em auto;
+      width: 70%; }
+    #central .projecte .mapa, #central .projecte p, #central .projecte .ir-proyecto {
+      display: none; }
+    #central .projecte:hover .mapa, #central .projecte:hover p, #central .projecte:hover .ir-proyecto {
+      display: block;
+      margin-bottom: 2em; }
+
+#peu-msf {
+  bottom: 10px;
+  left: 10px;
+  position: fixed; }
+
+.ir-proyecto span {
+  display: block;
+  font-family: 'BellMSFE-Light';
+  font-family: 'Merriweather',serif;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: lighter; }
+  .ir-proyecto span:hover {
+    text-decoration: underline; }
+
+#central .projecte .ir-proyecto {
+  text-align: center; }
+
+.ir-proyecto img {
+  font-family: 'BellMSFE-Light';
+  margin-bottom: 1em; }
+
+.info-home {
+  color: white;
+  float: right;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  min-width: 300px;
+  z-index: 2;
+  margin-right: 5%;
+  width: 25%;
+  position: relative; }
+
+@media only screen and (min-width: 0px) and (max-width: 1100px) {
+  section {
+    position: relative !important;
+    height: auto !important;
+    width: 100%;
+    background: url(../images/bg3.jpg) no-repeat fixed center top/cover rgba(0, 0, 0, 0) !important;
+    min-height: 600px; }
+    section div {
+      position: relative !important; }
+    section #intro {
+      position: relative;
+      margin: 0 auto;
+      width: 85% !important; }
+    section .noies {
+      display: none; }
+    section .pasa-central {
+      position: relative;
+      display: block; }
+    section #central .projecte:hover .pasa-central {
+      bottom: 1em; }
+    section #central .projecte:hover p {
+      display: none !important; }
+    section #central .projecte:hover .mapa {
+      display: none !important; }
+    section #central .projecte .ir-proyecto {
+      display: block; }
+      section #central .projecte .ir-proyecto span {
+        display: block;
+        font-family: 'BellMSFE-Light';
+        font-family: 'Merriweather',serif;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: lighter; }
+        section #central .projecte .ir-proyecto span:hover {
+          text-decoration: underline; } }
+.iconoscroll {
+  position: fixed;
+  right: 15%;
+  top: 10%; }
+  .iconoscroll img {
+    width: 40px; }
